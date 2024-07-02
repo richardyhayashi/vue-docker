@@ -1,0 +1,6 @@
+# Files
+.env
+.trunk
+
+# Folders
+/node_modules
