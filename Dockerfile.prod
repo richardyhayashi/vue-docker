@@ -1,0 +1,11 @@
+# Base image.
+FROM node:22.6.0-alpine
+
+# Set evironment variables.
+ENV LANG=C.UTF-8
+
+# Arguments In.
+ARG VUE_PORT
+
+# Set up working directory.
+WORKDIR /app
